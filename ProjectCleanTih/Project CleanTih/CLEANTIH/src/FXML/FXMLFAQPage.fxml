@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLFAQPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="161.0" layoutX="296.0" layoutY="-2.0" stroke="WHITE" strokeType="INSIDE" width="1624.0" />
+      <Text layoutX="334.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAQ">
+         <font>
+            <Font name="System Bold Italic" size="80.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="289.0" fitWidth="289.0" layoutX="1604.0" layoutY="-66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/Clean%20tih.png" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <Pane prefHeight="1080.0" prefWidth="295.0" style="-fx-background-color: #FFD600;">
+         <children>
+            <Button layoutX="63.0" layoutY="179.0" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Text layoutX="106.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="125.0" fitWidth="150.0" layoutX="85.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/report.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="63.0" layoutY="394.0" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="125.0" fitWidth="200.0" layoutX="86.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/history.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="102.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button layoutX="63.0" layoutY="827.0" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Text layoutX="102.0" layoutY="1033.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotline">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="125.0" fitWidth="200.0" layoutX="85.0" layoutY="850.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/hotline.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutX="47.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleButtonBack" prefHeight="76.0" prefWidth="76.0" style="-fx-background-radius: 100; -fx-background-color: white;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="55.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/yellow.png" />
+               </image>
+            </ImageView>
+            <Button depthTest="DISABLE" layoutX="63.0" layoutY="610.0" mnemonicParsing="false" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="121.0" layoutY="813.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAQ">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="125.0" fitWidth="200.0" layoutX="85.0" layoutY="633.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/faq_yellow.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="63.0" layoutY="180.0" mnemonicParsing="false" onAction="#handleButtonReport" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: transparant; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="63.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleButtonHistory" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: transparant; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="63.0" layoutY="827.0" mnemonicParsing="false" onAction="#handleButtonHotline" prefHeight="170.0" prefWidth="170.0" style="-fx-background-color: transparant; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton1" layoutX="47.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleButtonBack" prefHeight="76.0" prefWidth="76.0" style="-fx-background-radius: 100; -fx-background-color: transparant;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="334.0" layoutY="159.0" prefHeight="106.0" prefWidth="740.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="14.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is Klitih?" wrappingWidth="453.2255859375">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Text>
+            <Button layoutX="649.0" layoutY="22.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="63.0" style="-fx-background-radius: 100; -fx-background-color: #FFD600;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="664.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+               <image>
+                  <Image url="@Resource/whte.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="649.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleButtonKlitih" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: transparant;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="1122.0" layoutY="159.0" prefHeight="850.0" prefWidth="753.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;" />
+      <Pane layoutX="334.0" layoutY="439.0" prefHeight="106.0" prefWidth="740.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="14.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is Hotline?" wrappingWidth="453.2255859375">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Text>
+            <Button layoutX="649.0" layoutY="22.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="63.0" style="-fx-background-radius: 100; -fx-background-color: #FFD600;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="664.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+               <image>
+                  <Image url="@Resource/whte.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="649.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleButtonWHotline" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: transparant;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="334.0" layoutY="299.0" prefHeight="106.0" prefWidth="740.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="14.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to Report?" wrappingWidth="453.2255859375">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Text>
+            <Button layoutX="649.0" layoutY="22.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="63.0" style="-fx-background-radius: 100; -fx-background-color: #FFD600;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="664.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+               <image>
+                  <Image url="@Resource/whte.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="649.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleButtonHReport" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: transparant;">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="paneKlitih" layoutX="1122.0" layoutY="159.0" prefHeight="850.0" prefWidth="753.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="11.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is Klitih?" textAlignment="CENTER" wrappingWidth="730.2255859375">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Text>
+            <Text layoutX="26.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     First of all, the word klitih comes from Javanese which means the activity of looking for wind outside the house. The klitih phenomenon actually started in the early 1990s when the police grouped teenage gangs in Yogyakarta where the police were known to have information about teenage gangs and groups of young people who committed crimes. Initially, the term klitih had a positive meaning in the form of someone who was filling their free time. However, as time went by, the term klitih turned into a crime by attacking people unexpectedly." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="29.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     The term klitih became popular in 2016. Initially, klitih was juvenile delinquent behavior and hostility between groups. However, as time goes by, the klitih phenomenon has shifted. Now, klitih not only targets certain groups, but also randomly targets the general public. Along with the development of social media, this klitih incident is increasingly being revealed. Referring to data recorded by the Yogyakarta Special Region Regional Police (in DataIndonesia.id, 2022), klitih cases increased by 11.54% in 2021 when compared to 2020. In detail, in 2020 klitih cases reached 52 cases with the number of perpetrators 91 people have been arrested. Then, cases increased to 58 cases with 102 perpetrators arrested in 2021. These cases consisted of 40 cases that had been resolved, while 18 cases were still/unresolved. The modus operandi consisted of abuse (32 cases), use of sharp weapons (25 cases) and vandalism (1 case). Apart from that, data from the Yogyakarta Regional Police also revealed that the majority of the perpetrators were still students, while the rest were unemployed." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="paneReport" layoutX="1122.0" layoutY="159.0" prefHeight="850.0" prefWidth="753.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="11.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to Report?" textAlignment="CENTER" wrappingWidth="730.2255859375">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Input your Report title." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Select the date of the incident." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Input incident time" textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Fill in the incident description." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Insert a photo of the incident." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. Select location of the incident." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7. Click “Can you be held responsible if you create fake information” check button." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8. Finally click report and wait for the police to process your report." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="paneHotline" layoutX="1122.0" layoutY="159.0" prefHeight="850.0" prefWidth="753.0" style="-fx-background-color: white; -fx-border-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="11.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What is Hotline" textAlignment="CENTER" wrappingWidth="730.2255859375">
+               <font>
+                  <Font name="System Bold Italic" size="45.0" />
+               </font>
+            </Text>
+            <Text layoutX="28.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAQ stands for Frequently Asked Questions. so you can find out about the features that CleanTih has, such as :" textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="31.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Police : You can send messages or call quickly." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="31.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Ambulance : You can send messages or call quickly." textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="31.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. GedangGoreng : Gedang Goreng is a local hero from Yogyakarta who often goes around eradicating klitih. You can send a message or call if necessary" textAlignment="JUSTIFY" wrappingWidth="695.469970703125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #FFD600;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLLoginPageController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@Resource/police%20line.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="myPane" layoutX="400.0" layoutY="176.0" prefHeight="729.0" prefWidth="570.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-background-color: #ffffff;">
+         <children>
+            <TextField fx:id="tfUsername" layoutX="26.0" layoutY="288.0" prefHeight="65.0" prefWidth="522.0" promptText="Username" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 30; -fx-background-radius: 30;">
+               <opaqueInsets>
+                  <Insets top="25.0" />
+               </opaqueInsets>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <Button fx:id="signUpButton" layoutX="26.0" layoutY="611.0" mnemonicParsing="false" onAction="#handleButtonSignUp" prefHeight="65.0" prefWidth="522.0" style="-fx-background-color: #FFffff; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #FFD600;" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="loginButton" layoutX="26.0" layoutY="518.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="65.0" prefWidth="522.0" style="-fx-background-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;" text="Login">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="myImage" fitHeight="469.0" fitWidth="469.0" layoutX="48.0" layoutY="-85.0">
+               <image>
+                  <Image url="@Resource/Clean%20tih.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="tfPassword" layoutX="26.0" layoutY="388.0" prefHeight="65.0" prefWidth="522.0" promptText="Password" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-background-color: white; -fx-border-color: black;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

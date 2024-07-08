@@ -1,0 +1,18 @@
+<list>
+  <user>
+    <username>rapli</username>
+    <email></email>
+    <phoneNumber></phoneNumber>
+    <password>123</password>
+    <fullname></fullname>
+    <confirmPassword>123</confirmPassword>
+  </user>
+  <user>
+    <username>kiplii</username>
+    <email></email>
+    <phoneNumber></phoneNumber>
+    <password>123</password>
+    <fullname></fullname>
+    <confirmPassword>123</confirmPassword>
+  </user>
+</list>

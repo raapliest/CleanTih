@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLMainPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="164.0" layoutX="520.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="1450.0" />
+      <ImageView fitHeight="926.0" fitWidth="1333.0" layoutX="587.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/maps.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="1507.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/profile.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1495.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleButtonProfile" prefHeight="76.0" prefWidth="76.0" style="-fx-background-radius: 100; -fx-border-color: black; -fx-border-radius: 100; -fx-background-color: transparent;">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="299.0" fitWidth="289.0" layoutX="1604.0" layoutY="-66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/Clean%20tih.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="myPane" layoutX="1495.0" layoutY="161.0" prefHeight="273.0" prefWidth="377.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-color: #FFD600; -fx-border-radius: 30;">
+         <children>
+            <Text layoutX="13.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hi User, welcome to CleanTih" wrappingWidth="350.00390625">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Text>
+            <Text fill="BLUE" layoutX="290.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Go to Profile&gt;">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="282.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButtonMoreProfile" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: transparent;" />
+         </children>
+      </Pane>
+      <Pane layoutX="-2.0" layoutY="-1.0" prefHeight="1085.0" prefWidth="589.0" style="-fx-background-color: #FFD600; -fx-border-color: black; -fx-border-width: 2;">
+         <children>
+            <Button layoutX="75.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonReport" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="328.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonHistory" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button depthTest="DISABLE" layoutX="75.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleButtonFAQ" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="328.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleButtonHotline" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/report.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="353.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/history.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/faq.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="353.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Resource/hotline.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="133.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text layoutX="382.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text layoutX="148.0" layoutY="792.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAQ">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text layoutX="381.0" layoutY="792.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotline">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Button layoutX="75.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonReport" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="328.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonHistory" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="75.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleButtonFAQ" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="328.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleButtonHotline" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-background-radius: 30;">
+               <font>
+                  <Font name="System Bold Italic" size="31.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="970.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="657.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField layoutX="699.0" layoutY="47.0" prefHeight="65.0" prefWidth="522.0" promptText="Search Location" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 30; -fx-background-radius: 30;">
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="65.0" fitWidth="63.0" layoutX="626.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/location.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

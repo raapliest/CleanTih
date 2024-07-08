@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.FXMLLoginPageController">
+   <children>
+      <Pane layoutX="675.0" layoutY="176.0" prefHeight="729.0" prefWidth="570.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="437.0" fitWidth="437.0" layoutX="80.0" layoutY="-70.0">
+               <image>
+                  <Image url="@../../../../../Users/Tuf%20Gaming/Downloads/Clean%20tih.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="26.0" layoutY="288.0" prefHeight="65.0" prefWidth="522.0" promptText="Username" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 30; -fx-background-radius: 30;">
+               <opaqueInsets>
+                  <Insets top="25.0" />
+               </opaqueInsets>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="26.0" layoutY="398.0" prefHeight="65.0" prefWidth="522.0" promptText="Password" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 30; -fx-background-radius: 30;">
+               <opaqueInsets>
+                  <Insets top="25.0" />
+               </opaqueInsets>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <Text layoutX="137.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CleanTih" wrappingWidth="323.890625">
+               <font>
+                  <Font name="Broadway" size="64.0" />
+               </font>
+            </Text>
+            <Button fx:id="signUpButton" layoutX="26.0" layoutY="611.0" mnemonicParsing="false" onAction="#handleButtonSignUp" prefHeight="65.0" prefWidth="522.0" style="-fx-background-color: #FFffff; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #FFD600;" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="loginButton" layoutX="26.0" layoutY="518.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="65.0" prefWidth="522.0" style="-fx-background-color: #FFD600; -fx-background-radius: 30; -fx-border-radius: 30;" text="Login">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Text fill="#000000b9" fontSmoothingType="LCD" layoutX="146.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help us to get more safety" wrappingWidth="132.279296875">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="908.0" layoutY="952.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="849.0" layoutY="992.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CrimeBuster ">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="40.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
